@@ -1,0 +1,262 @@
+/* Local fonts ------------------------------------------------------ */
+@import url("fonts.css");
+
+/* Reset ------------------------------------------------------------ */
+@import url("reset.css");
+/* ========================================================== */
+
+body {
+   font-family: "Roboto", sans-serif;
+   font-size: 18px;
+}
+.page {
+}
+[class*="-container"] {
+   max-width: 1510px;
+   padding: 0 15px;
+   margin: 0 auto;
+}
+
+/* ========================================================== */
+
+
+/* ========================= Header ========================= */
+.header {
+   padding: 36px 0;
+}
+.header-container {
+}
+.header-logo {
+   margin-right: 8.378%;
+}
+.logo {
+}
+.logo-image {
+}
+.header-menu {
+}
+/* -------------------------- Menu -------------------------- */
+.menu {
+   display: inline-block;
+   vertical-align: middle;
+}
+.menu-list {
+   font-size: 0;
+}
+.menu-item {
+   display: inline-block;
+   margin-right: 34px;
+}
+.menu-link {
+   font-weight: 500;
+   font-size: 18px;
+   color: #272D4E;
+   text-transform: capitalize;
+}
+/* ========================================================== */
+
+
+/* ======================== Lightbox ======================== */
+.lightbox {
+}
+.lightbox-hero {
+}
+.lightbox-about {
+}
+.lightbox-contacts {
+}
+
+.title {
+   font-family: "CircularStd", sans-serif;
+   font-weight: 700;
+   font-size: 55px;
+   line-height: 1.272727; /* 70/55 */
+   color: #272D4E;
+}
+.title-small {
+   font-size: 36px;
+   line-height: 1;
+   color: #fff;
+}
+/* ------------------------- Hero --------------------------- */
+.hero {
+   padding: 6.08% 0;
+}
+.hero-container {
+}
+.hero-content {
+   max-width: 818px;
+}
+.hero-content > * {
+   margin-bottom: 30px;
+}
+.hero-title {
+   font-size: 85px;
+   line-height: 1.117647; /* 95/85 */
+}
+.hero-text {
+   line-height: 1.388889; /* 25/18 */
+   color: #94A2B3;
+   max-width: 716px;
+}
+.hero-text > * {
+   margin-bottom: 15px;
+}
+/* ------------------------- About -------------------------- */
+.about {
+   background-color: #231F8B;
+   padding: 5.21% 0;
+}
+.about-container {
+   max-width: 1070px;
+}
+.about-header {
+   margin-bottom: 70px;
+}
+.header-about {
+}
+.header-about > * {
+   margin-bottom: 10px;
+}
+.header-about-label {
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 1.714286; /* 24/14 */
+   letter-spacing: 0.2px;
+   color: #5A54F2;
+}
+.header-about-title {
+}
+.header-about-description {
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.428571; /* 20/14 */
+   color: #fff;
+   letter-spacing: 0.2px;
+}
+.about-wrap-cards {
+   font-size: 0;
+   /* 30px - накладання margin */
+   margin: 30px -20px 0 -20px;
+   overflow: hidden;
+}
+.about-article {
+}
+.article-about {
+   width: 25%;
+   display: inline-block;
+   padding: 0 20px;
+   vertical-align: top;
+}
+.article-about-wrap {
+   background-color: #fff;
+   padding: 35px 40px;
+}
+.article-about-wrap > * {
+   margin-bottom: 20px;
+}
+.article-about-image {
+   max-width: 72px;
+}
+.article-about-title {
+   font-family: "CircularStd", sans-serif;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.5; /* 24/16 */
+   letter-spacing: 0.1px;
+   color: #252B42;
+}
+.article-about-divider {
+   width: 33.333%;
+   height: 2px;
+   background-color: #E74040;
+}
+.article-about-text {
+   font-size: 14px;
+   line-height: 1.428571; /* 20/14 */
+   letter-spacing: 0.2px;
+   color: #737373;
+}
+.article-about-text > * {
+   margin-bottom: 10px;
+}
+.article-about-margin {
+   margin-top: 48px;
+}
+.article-about-active {
+   background-color: #5A54F2;
+}
+.article-about-active > * {
+   color: #fff;
+}
+/* ------------------------ Contacts ------------------------ */
+.contacts {
+   text-align: center;
+   padding-top: 5.21%;
+}
+.contacts-container {
+   max-width: 1312px;
+}
+.contacts-container > * {
+   margin-bottom: 30px;
+}
+.contacts-title {
+}
+.contacts-text {
+   line-height: 1.388889; /* 25/18 */
+   color: #94A2B3;
+}
+.contacts-image {
+}
+
+
+/* ========================= Footer ========================= */
+.footer {
+}
+.footer-top {
+}
+.footer-bottom {
+}
+/* ----------------------- Top-footer ----------------------- */
+.top-footer {
+   padding-top: 45px;
+   padding-bottom: 32px;
+   background-color: #231F20;
+   color: #fff;
+}
+.top-footer-container {
+   max-width: 1272px;
+}
+.top-footer-list {
+   font-size: 0;
+   white-space: nowrap;
+   overflow-x: auto;
+}
+.list-top-footer {
+}
+.list-top-footer-item {
+   display: inline-block;
+   font-size: 20px;
+   margin-right: 118px;
+   margin-bottom: 10px;
+}
+.list-top-footer-item span {
+   font-weight: 700;
+}
+.list-top-footer-image {
+   margin-right: 10px;
+   max-width: 40px;
+}
+
+/* --------------------- Bottom-footer ---------------------- */
+.bottom-footer {
+   padding: 28px 0;
+   font-size: 12px;
+   line-height: 1.833333; /* 22/12 */
+   color: #272D4E;
+}
+.bottom-footer-container {
+}
+.copy {
+   text-align: center;
+}
