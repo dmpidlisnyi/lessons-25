@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Google fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="icon" href="favicon.svg" type="image/svg">
+      <title>Lesson 14</title>
+   </head>
+   <body>
+      <div class="wrapper">
+         <header class="header">
+            <div class="header__container">
+               <div class="header__menu menu">
+                  <ul class="menu__list">
+                     <li class="menu__item">
+                        <a href="#ekobazar" class="menu__link">Ekobazar</a>
+                     </li>
+                     <li class="menu__item">
+                        <a href="#hydra" class="menu__link">Hydra</a>
+                     </li>
+                     <li class="menu__item">
+                        <a href="#validation" class="menu__link">Validation</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </header>
+         <main class="page">
+            <h1 class="title">html <strong>forms</strong></h1>
+            <!-- Ekobazar -->
+            <div class="ekobazar" id="ekobazar">
+               <div class="ekobazar__container">
+                  <form action="#" class="ekobazar__form form">
+                     <div class="form__main main-form">
+                        <fieldset class="main-form__section">
+                           <legend class="main-form__title">Billing Information</legend>
+                           <div class="main-form__row main-form__row--three-column">
+                              <div class="main-form__input-group">
+                                 <label for="first-name" class="main-form__label">First name</label>
+                                 <input id="first-name" type="text" name="form[]" class="main-form__input" placeholder="Your first name" autocomplete="on" required>
+                              </div>
+                              <div class="main-form__input-group">
+                                 <label for="last-name" class="main-form__label">Last name</label>
+                                 <input id="last-name" type="text" name="form[]" class="main-form__input" placeholder="Your last name" autocomplete="on" required>
+                              </div>
+                              <div class="main-form__input-group">
+                                 <label for="company-name" class="main-form__label">Company Name (optional)</label>
+                                 <input id="company-name" type="text" name="form[]" class="main-form__input" placeholder="Company name">
+                              </div>
+                           </div>
+                           <div class="main-form__row">
+                              <div class="main-form__input-group">
+                                 <label for="street-address" class="main-form__label">Street Address</label>
+                                 <input id="street-address" type="text" name="form[]" class="main-form__input" placeholder="Street Address" autocomplete="on" required>
+                              </div>
+                           </div>
+                           <div class="main-form__row main-form__row--three-column">
+                              <div class="main-form__input-group">
+                                 <label for="country" class="main-form__label">Country / Region</label>
+                                 <select id="country" name="form[]" class="main-form__select" required>
+                                    <option value disabled selected hidden>Select</option>
+                                    <option value="UA">Ukraine</option>
+                                    <option value="US">United States</option>
+                                    <option value="GB">United Kingdom</option>
+                                    <option value="CA">Canada</option>
+                                    <option value="DE">Germany</option>
+                                    <option value="FR">France</option>
+                                    <option value="IT">Italy</option>
+                                    <option value="ES">Spain</option>
+                                    <option value="PL">Poland</option>
+                                    <option value="RO">Romania</option>
+                                    <option value="NL">Netherlands</option>
+                                    <option value="SE">Sweden</option>
+                                    <option value="CH">Switzerland</option>
+                                    <option value="BE">Belgium</option>
+                                    <option value="AT">Austria</option>
+                                 </select>
+                              </div>
+                              <div class="main-form__input-group">
+                                 <label for="state" class="main-form__label">States</label>
+                                 <select id="state" name="form[]" class="main-form__select" required>
+                                    <option value disabled selected hidden>Selects</option>
+                                    <optgroup label="Central Ukraine">
+                                       <option value="vinnytsia">Vinnytsia</option>
+                                       <option value="zhytomyr">Zhytomyr</option>
+                                       <option value="kyiv">Kyiv Region</option>
+                                       <option value="cherkasy">Cherkasy</option>
+                                       <option value="kirovohrad">Kirovohrad</option>
+                                       <option value="poltava">Poltava</option>
+                                       <option value="khmelnytskyi">Khmelnytskyi</option>
+                                    </optgroup>
+                                    <optgroup label="Western Ukraine">
+                                       <option value="volyn">Volyn</option>
+                                       <option value="rivne">Rivne</option>
+                                       <option value="lviv">Lviv</option>
+                                       <option value="ivano-frankivsk">Ivano-Frankivsk</option>
+                                       <option value="ternopil">Ternopil</option>
+                                       <option value="zakarpattia">Zakarpattia</option>
+                                       <option value="chernivtsi">Chernivtsi</option>
+                                    </optgroup>
+                                    <optgroup label="Eastern Ukraine">
+                                       <option value="dnipropetrovsk">Dnipropetrovsk</option>
+                                       <option value="kharkiv">Kharkiv</option>
+                                       <option value="donetsk">Donetsk</option>
+                                       <option value="luhansk">Luhansk</option>
+                                       <option value="zaporizhzhia">Zaporizhzhia</option>
+                                    </optgroup>
+                                    <optgroup label="Southern Ukraine">
+                                       <option value="odesa">Odesa</option>
+                                       <option value="mykolaiv">Mykolaiv</option>
+                                       <option value="kherson">Kherson</option>
+                                       <option value="crimea">AR Crimea</option>
+                                    </optgroup>
+                                    <optgroup label="Northern Ukraine">
+                                       <option value="chernihiv">Chernihiv</option>
+                                       <option value="sumy">Sumy</option>
+                                    </optgroup>
+                                 </select>
+                              </div>
+                              <div class="main-form__input-group">
+                                 <label for="zip" class="main-form__label">Zip Code</label>
+                                 <input id="zip" type="number" name="form[]" class="main-form__input" placeholder="Zip Code" autocomplete="on" required>
+                              </div>
+                           </div>
+                           <div class="main-form__row main-form__row--two-column main-form__row--margin">
+                              <div class="main-form__input-group">
+                                 <label for="email" class="main-form__label">Email</label>
+                                 <input id="email" type="email" name="form[]" class="main-form__input" placeholder="Email Address" autocomplete="on">
+                              </div>
+                              <div class="main-form__input-group">
+                                 <label for="phone" class="main-form__label">Phone</label>
+                                 <input id="phone" type="tel" name="form[]" class="main-form__input" placeholder="Phone number" autocomplete="on" required>
+                              </div>
+                           </div>
+                           <div class="main-form__row">
+                              <div class="main-form__custom-checkbox custom-checkbox">
+                                 <input id="checkbox" type="checkbox" name="form[]" value="yes" class="custom-checkbox__input">
+                                 <label for="checkbox" class="custom-checkbox__label">Ship to a different address</label>
+                              </div>
+                           </div>
+                        </fieldset>
+                        <fieldset class="main-form__section">
+                           <legend class="main-form__title">Additional Info</legend>
+                           <div class="main-form__row">
+                              <div class="main-form__input-group">
+                                 <label for="textarea" class="main-form__label">Order Notes (Optional)</label>
+                                 <textarea id="textarea" name="form[]" class="main-form__textarea" placeholder="Notes about your order, e.g. special notes for delivery"></textarea>
+                              </div>
+                           </div>
+                        </fieldset>
+                     </div>
+                     <div class="form__order-summary order-summary">
+                        <fieldset class="order-summary__section">
+                           <legend class="order-summary__title">Order Summary</legend>
+                           <div class="order-summary__items">
+                              <div class="order-summary__item item-order-summary">
+                                 <div class="item-order-summary__info">
+                                    <img src="img/products/01.webp" class="item-order-summary__icon" alt="Image">
+                                    <div class="item-order-summary__name">Green Capsicum</div>
+                                    <div class="item-order-summary__count">5</div>
+                                 </div>
+                                 <div class="item-order-summary__price">
+                                    <span class="currency-symbol">$</span>70.00
+                                 </div>
+                              </div>
+                              <div class="order-summary__item item-order-summary">
+                                 <div class="item-order-summary__info">
+                                    <img src="img/products/02.webp" class="item-order-summary__icon" alt="Image">
+                                    <div class="item-order-summary__name">Red Capsicum</div>
+                                    <div class="item-order-summary__count">1</div>
+                                 </div>
+                                 <div class="item-order-summary__price">
+                                    <span class="currency-symbol">$</span>14.00
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="order-summary__totals">
+                              <div class="order-summary__row">
+                                 <div class="order-summary__label">Subtotal:</div>
+                                 <div class="order-summary__value">
+                                    <span class="currency-symbol">$</span>84.00
+                                 </div>
+                              </div>
+                              <div class="order-summary__row">
+                                 <div class="order-summary__label">Shipping:</div>
+                                 <div class="order-summary__value">
+                                    Free
+                                 </div>
+                              </div>
+                              <div class="order-summary__row order-summary__row--total">
+                                 <div class="order-summary__label">Total:</div>
+                                 <div class="order-summary__value">
+                                    <span class="currency-symbol">$</span>84.00
+                                 </div>
+                              </div>
+                           </div>
+                        </fieldset>
+                        <fieldset class="order-summary__section">
+                           <legend class="order-summary__title order-summary__title--margin">Payment Method</legend>
+                           <div class="order-summary__payment-options">
+                              <label class="order-summary__option">
+                                 <input type="radio" name="payment_method" value="cash" class="order-summary__input" checked>
+                                 Cash on Delivery
+                              </label>
+                              <label class="order-summary__option">
+                                 <input type="radio" name="payment_method" value="paypal" class="order-summary__input">
+                                 Paypal
+                              </label>
+                              <label class="order-summary__option">
+                                 <input type="radio" name="payment_method" value="amazon" class="order-summary__input">
+                                 Amazon Pay
+                              </label>
+                           </div>
+                        </fieldset>
+                        <button type="submit" class="order-summary__button">Place Order</button>
+                     </div>
+                  </form>
+               </div>
+            </div>
+            <!-- Hydra -->
+            <div class="hydra" id="hydra">
+               <div class="hydra__join join-hydra">
+                  <div class="join-hydra__container">
+                     <div class="join-hydra__content">
+                        <div class="join-hydra__block-header">
+                           <h2 class="join-hydra__title">JOIN HYDRA</h2>
+                           <div class="join-hydra__sub-title">Let’s Build Your VR Experience</div>
+                        </div>
+                        <form action="#" class="join-hydra__contact-form contact-form">
+                           <div class="contact-form__row contact-form__row--two-column">
+                              <div class="contact-form__input-group">
+                                 <label class="contact-form__label">First Name</label>
+                                 <input type="text" name="form[]" class="contact-form__input" autocomplete="on" required placeholder="First Name">
+                              </div>
+                              <div class="contact-form__input-group">
+                                 <label class="contact-form__label">Last Name</label>
+                                 <input type="text" name="form[]" class="contact-form__input" autocomplete="on" required placeholder="Last Name">
+                              </div>
+                           </div>
+                           <div class="contact-form__row contact-form__row--two-column">
+                              <div class="contact-form__input-group">
+                                 <label class="contact-form__label">Email</label>
+                                 <input type="email" name="form[]" class="contact-form__input" autocomplete="on" required placeholder="Email">
+                              </div>
+                              <div class="contact-form__input-group">
+                                 <label class="contact-form__label">Phone Number</label>
+                                 <input type="tel" name="form[]" class="contact-form__input" autocomplete="on" required placeholder="Phone Number">
+                              </div>
+                           </div>
+                           <div class="contact-form__row">
+                              <div class="contact-form__input-group">
+                                 <label class="contact-form__label">Subject</label>
+                                 <input type="text" name="form[]" class="contact-form__input" required placeholder="Subject">
+                              </div>
+                           </div>
+                           <div class="contact-form__row contact-form__row--margin">
+                              <div class="contact-form__textarea-group">
+                                 <label class="contact-form__label">Tell Us Something...</label>
+                                 <textarea name="form[]" class="contact-form__textarea" required placeholder="Tell Us Something..."></textarea>
+                              </div>
+                           </div>
+                           <button type="submit" class="contact-form__button">SEND TO HYDRA</button>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Validation -->
+            <div class="validation" id="validation">
+               <div class="validation__container">
+                  <h2 class="validation__title">Simple field validation</h2>
+                  <form action="#" class="validation__form">
+                     <label for="password" class="validation__label">
+                        <code>input type="password"</code>
+                     </label>
+                     <input id="password" type="password" class="validation__input" placeholder="Enter something" autocomplete="on" minlength="12" required>
+                  </form>
+               </div>
+            </div>
+         </main>
+         <footer class="footer">
+            <div class="footer__container">
+               <div class="footer__copy">
+                  &copy; Всі права захищено 2025
+               </div>
+            </div>
+         </footer>
+      </div>
+   </body>
+</html>
