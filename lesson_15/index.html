@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Google fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="icon" href="favicon.svg" type="image/svg">
+      <title>Lesson 15</title>
+   </head>
+   <body>
+      <div class="wrapper">
+         <main class="page">
+            <!-- Featured Products Section -->
+            <div class="page__featured-products featured-products featured-products--padding-section">
+               <div class="featured-products__container">
+                  <div class="featured-products__block-header block-header">
+                     <h2 class="block-header__title title">Featured Products</h2>
+                     <a href="#" class="block-header__more">View All</a>
+                  </div>
+                  <div class="featured-products__items">
+                     <!-- Atricle -->
+                     <div class="featured-products__item-product item-product">
+                        <div class="item-product__header">
+                           <a href="#" class="item-product__link">
+                              <img src="img/products/01.webp" class="item-product__image" alt="Image">
+                           </a>
+                           <div class="item-product__actions">
+                              <button class="item-product__favorite">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+                                    <path stroke="#1A1A1A" stroke-width="1.5" d="M10 17.545C-6.667 8.333 5-1.667 10 4.657c5-6.324 16.667 3.676 0 12.888Z" />
+                                 </svg>
+                              </button>
+                              <button class="item-product__quick-view">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+                                    <path stroke="#1A1A1A" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10 3.541c-6.25 0-8.75 6.46-8.75 6.46s2.5 6.457 8.75 6.457S18.75 10 18.75 10 16.25 3.541 10 3.541v0Z" />
+                                    <path stroke="#1A1A1A" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10 13.125a3.125 3.125 0 1 0 0-6.25 3.125 3.125 0 0 0 0 6.25v0Z" />
+                                 </svg>
+                              </button>
+                           </div>
+                           <div class="item-product__labels">
+                              <div class="item-product__label item-product__label--red">Sale 50%</div>
+                           </div>
+                        </div>
+                        <div class="item-product__main">
+                           <div class="item-product__info">
+                              <h3 class="item-product__title">
+                                 <a href="#" class="item-product__link-title">Green Apple</a>
+                              </h3>
+                              <div class="item-product__price">
+                                 <div class="item-product__current-price">$14.99</div>
+                                 <div class="item-product__old-price">$20.99</div>
+                              </div>
+                              <div class="item-product__rating">
+                                 <!-- Затичка -->
+                                 <img src="img/icons/rating.svg" alt="Image">
+                              </div>
+                           </div>
+                           <button class="item-product__add-to-cart">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+                                 <path stroke="#1A1A1A" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" d="M6.667 8.333h-2.5L2.5 17.5h15l-1.667-9.167h-2.5m-6.666 0v-2.5A3.333 3.333 0 0 1 10 2.5v0a3.333 3.333 0 0 1 3.333 3.333v2.5m-6.666 0h6.666m-6.666 0v2.5m6.666-2.5v2.5" />
+                              </svg>
+                           </button>
+                        </div>
+                     </div>
+                     <div class="featured-products__item-product item-product">
+                        <div class="item-product__header">
+                           <a href="#" class="item-product__link">
+                              <img src="img/products/02.webp" class="item-product__image" alt="Image">
+                           </a>
+                           <div class="item-product__actions">
+                              <button class="item-product__favorite">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+                                    <path stroke="#1A1A1A" stroke-width="1.5" d="M10 17.545C-6.667 8.333 5-1.667 10 4.657c5-6.324 16.667 3.676 0 12.888Z" />
+                                 </svg>
+                              </button>
+                              <button class="item-product__quick-view">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+                                    <path stroke="#1A1A1A" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10 3.541c-6.25 0-8.75 6.46-8.75 6.46s2.5 6.457 8.75 6.457S18.75 10 18.75 10 16.25 3.541 10 3.541v0Z" />
+                                    <path stroke="#1A1A1A" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10 13.125a3.125 3.125 0 1 0 0-6.25 3.125 3.125 0 0 0 0 6.25v0Z" />
+                                 </svg>
+                              </button>
+                           </div>
+                           <div class="item-product__labels">
+                              <div class="item-product__label item-product__label--black">Out of Stock</div>
+                           </div>
+                        </div>
+                        <div class="item-product__main">
+                           <div class="item-product__info">
+                              <h3 class="item-product__title">
+                                 <a href="#" class="item-product__link-title">Fresh Indian Malta</a>
+                              </h3>
+                              <div class="item-product__price">
+                                 <div class="item-product__current-price">$20.00</div>
+                              </div>
+                              <div class="item-product__rating">
+                                 <!-- Затичка -->
+                                 <img src="img/icons/rating.svg" alt="Image">
+                              </div>
+                           </div>
+                           <button class="item-product__add-to-cart">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+                                 <path stroke="#1A1A1A" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" d="M6.667 8.333h-2.5L2.5 17.5h15l-1.667-9.167h-2.5m-6.666 0v-2.5A3.333 3.333 0 0 1 10 2.5v0a3.333 3.333 0 0 1 3.333 3.333v2.5m-6.666 0h6.666m-6.666 0v2.5m6.666-2.5v2.5" />
+                              </svg>
+                           </button>
+                        </div>
+                     </div>
+                     <div class="featured-products__item-product item-product">
+                        <div class="item-product__header">
+                           <a href="#" class="item-product__link">
+                              <img src="img/products/03.webp" class="item-product__image" alt="Image">
+                           </a>
+                           <div class="item-product__actions">
+                              <button class="item-product__favorite">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+                                    <path stroke="#1A1A1A" stroke-width="1.5" d="M10 17.545C-6.667 8.333 5-1.667 10 4.657c5-6.324 16.667 3.676 0 12.888Z" />
+                                 </svg>
+                              </button>
+                              <button class="item-product__quick-view">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+                                    <path stroke="#1A1A1A" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10 3.541c-6.25 0-8.75 6.46-8.75 6.46s2.5 6.457 8.75 6.457S18.75 10 18.75 10 16.25 3.541 10 3.541v0Z" />
+                                    <path stroke="#1A1A1A" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10 13.125a3.125 3.125 0 1 0 0-6.25 3.125 3.125 0 0 0 0 6.25v0Z" />
+                                 </svg>
+                              </button>
+                           </div>
+                           <div class="item-product__labels">
+                              <div class="item-product__label item-product__label--orange">New</div>
+                              <div class="item-product__label item-product__label--blue">Best Sale</div>
+                           </div>
+                        </div>
+                        <div class="item-product__main">
+                           <div class="item-product__info">
+                              <h3 class="item-product__title">
+                                 <a href="#" class="item-product__link-title">Chinese cabbage</a>
+                              </h3>
+                              <div class="item-product__price">
+                                 <div class="item-product__current-price">$12.00</div>
+                              </div>
+                              <div class="item-product__rating">
+                                 <!-- Затичка -->
+                                 <img src="img/icons/rating.svg" alt="Image">
+                              </div>
+                           </div>
+                           <button class="item-product__add-to-cart">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+                                 <path stroke="#1A1A1A" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" d="M6.667 8.333h-2.5L2.5 17.5h15l-1.667-9.167h-2.5m-6.666 0v-2.5A3.333 3.333 0 0 1 10 2.5v0a3.333 3.333 0 0 1 3.333 3.333v2.5m-6.666 0h6.666m-6.666 0v2.5m6.666-2.5v2.5" />
+                              </svg>
+                           </button>
+                        </div>
+                     </div>
+                     <div class="featured-products__item-product item-product">
+                        <div class="item-product__header">
+                           <a href="#" class="item-product__link">
+                              <img src="img/products/04.webp" class="item-product__image" alt="Image">
+                           </a>
+                           <div class="item-product__actions">
+                              <button class="item-product__favorite">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+                                    <path stroke="#1A1A1A" stroke-width="1.5" d="M10 17.545C-6.667 8.333 5-1.667 10 4.657c5-6.324 16.667 3.676 0 12.888Z" />
+                                 </svg>
+                              </button>
+                              <button class="item-product__quick-view">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+                                    <path stroke="#1A1A1A" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10 3.541c-6.25 0-8.75 6.46-8.75 6.46s2.5 6.457 8.75 6.457S18.75 10 18.75 10 16.25 3.541 10 3.541v0Z" />
+                                    <path stroke="#1A1A1A" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10 13.125a3.125 3.125 0 1 0 0-6.25 3.125 3.125 0 0 0 0 6.25v0Z" />
+                                 </svg>
+                              </button>
+                           </div>
+                        </div>
+                        <div class="item-product__main">
+                           <div class="item-product__info">
+                              <h3 class="item-product__title">
+                                 <a href="#" class="item-product__link-title">Green Lettuce</a>
+                              </h3>
+                              <div class="item-product__price">
+                                 <div class="item-product__current-price">$9.00</div>
+                              </div>
+                              <div class="item-product__rating">
+                                 <!-- Затичка -->
+                                 <img src="img/icons/rating.svg" alt="Image">
+                              </div>
+                           </div>
+                           <button class="item-product__add-to-cart">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+                                 <path stroke="#1A1A1A" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" d="M6.667 8.333h-2.5L2.5 17.5h15l-1.667-9.167h-2.5m-6.666 0v-2.5A3.333 3.333 0 0 1 10 2.5v0a3.333 3.333 0 0 1 3.333 3.333v2.5m-6.666 0h6.666m-6.666 0v2.5m6.666-2.5v2.5" />
+                              </svg>
+                           </button>
+                        </div>
+                     </div>
+                     <div class="featured-products__item-product item-product">
+                        <div class="item-product__header">
+                           <a href="#" class="item-product__link">
+                              <img src="img/products/05.webp" class="item-product__image" alt="Image">
+                           </a>
+                           <div class="item-product__actions">
+                              <button class="item-product__favorite">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+                                    <path stroke="#1A1A1A" stroke-width="1.5" d="M10 17.545C-6.667 8.333 5-1.667 10 4.657c5-6.324 16.667 3.676 0 12.888Z" />
+                                 </svg>
+                              </button>
+                              <button class="item-product__quick-view">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+                                    <path stroke="#1A1A1A" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10 3.541c-6.25 0-8.75 6.46-8.75 6.46s2.5 6.457 8.75 6.457S18.75 10 18.75 10 16.25 3.541 10 3.541v0Z" />
+                                    <path stroke="#1A1A1A" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10 13.125a3.125 3.125 0 1 0 0-6.25 3.125 3.125 0 0 0 0 6.25v0Z" />
+                                 </svg>
+                              </button>
+                           </div>
+                        </div>
+                        <div class="item-product__main">
+                           <div class="item-product__info">
+                              <h3 class="item-product__title">
+                                 <a href="#" class="item-product__link-title">Eggplant</a>
+                              </h3>
+                              <div class="item-product__price">
+                                 <div class="item-product__current-price">$34.00</div>
+                              </div>
+                              <div class="item-product__rating">
+                                 <!-- Затичка -->
+                                 <img src="img/icons/rating.svg" alt="Image">
+                              </div>
+                           </div>
+                           <button class="item-product__add-to-cart">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+                                 <path stroke="#1A1A1A" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" d="M6.667 8.333h-2.5L2.5 17.5h15l-1.667-9.167h-2.5m-6.666 0v-2.5A3.333 3.333 0 0 1 10 2.5v0a3.333 3.333 0 0 1 3.333 3.333v2.5m-6.666 0h6.666m-6.666 0v2.5m6.666-2.5v2.5" />
+                              </svg>
+                           </button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- News Section -->
+            <div class="page__news news news--padding-section">
+               <div class="news__container">
+                  <h2 class="news__title title">Latest News</h2>
+                  <div class="news__items">
+                     <!-- Article -->
+                     <div class="news__item item-news">
+                        <div class="item-news__header">
+                           <a href="#" class="item-news__link-image">
+                              <img src="img/news/01.webp" class="item-news__image" alt="Image">
+                           </a>
+                           <div class="item-news__date">
+                              <div class="item-news__day">18</div>
+                              <div class="item-news__month">nov</div>
+                           </div>
+                        </div>
+                        <div class="item-news__main">
+                           <div class="item-news__meta meta-item-news">
+                              <a href="#" class="meta-item-news__link meta-item-news__link--category">Food</a>
+                              <a href="#" class="meta-item-news__link meta-item-news__link--author">By Admin</a>
+                              <a href="#" class="meta-item-news__link meta-item-news__link--comment">65 Comments</a>
+                           </div>
+                           <h3 class="item-news__title">
+                              <a href="#" class="item-news__link-title">
+                                 Curabitur porttitor orci eget neque accumsan venenatis. Nunc fermentum.
+                              </a>
+                           </h3>
+                           <a href="#" class="item-news__link">Read More</a>
+                        </div>
+                     </div>
+                     <div class="news__item item-news">
+                        <div class="item-news__header">
+                           <a href="#" class="item-news__link-image">
+                              <img src="img/news/02.webp" class="item-news__image" alt="Image">
+                           </a>
+                           <div class="item-news__date">
+                              <div class="item-news__day">29</div>
+                              <div class="item-news__month">jan</div>
+                           </div>
+                        </div>
+                        <div class="item-news__main">
+                           <div class="item-news__meta meta-item-news">
+                              <a href="#" class="meta-item-news__link meta-item-news__link--category">Food</a>
+                              <a href="#" class="meta-item-news__link meta-item-news__link--author">By Admin</a>
+                              <a href="#" class="meta-item-news__link meta-item-news__link--comment">65 Comments</a>
+                           </div>
+                           <h3 class="item-news__title">
+                              <a href="#" class="item-news__link-title">
+                                 Eget lobortis lorem lacinia. Vivamus pharetra semper.
+                              </a>
+                           </h3>
+                           <a href="#" class="item-news__link">Read More</a>
+                        </div>
+                     </div>
+                     <div class="news__item item-news">
+                        <div class="item-news__header">
+                           <a href="#" class="item-news__link-image">
+                              <img src="img/news/03.webp" class="item-news__image" alt="Image">
+                           </a>
+                           <div class="item-news__date">
+                              <div class="item-news__day">21</div>
+                              <div class="item-news__month">feb</div>
+                           </div>
+                        </div>
+                        <div class="item-news__main">
+                           <div class="item-news__meta meta-item-news">
+                              <a href="#" class="meta-item-news__link meta-item-news__link--category">Food</a>
+                              <a href="#" class="meta-item-news__link meta-item-news__link--author">By Admin</a>
+                              <a href="#" class="meta-item-news__link meta-item-news__link--comment">65 Comments</a>
+                           </div>
+                           <h3 class="item-news__title">
+                              <a href="#" class="item-news__link-title">
+                                 Maecenas blandit risus elementum mauris malesuada.
+                              </a>
+                           </h3>
+                           <a href="#" class="item-news__link">Read More</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </main>
+         <footer class="footer">
+            <div class="footer__container">
+               <div class="footer__copy">
+                  <p>Ecobazar eCommerce © 2021. All Rights Reserved</p>
+               </div>
+            </div>
+         </footer>
+      </div>
+   </body>
+</html>
