@@ -1,0 +1,64 @@
+/* Local fonts ------------------------------------- */
+/* @import url("fonts.css"); */
+/* Reset ------------------------------------------- */
+@import url("reset.css");
+/* Common ------------------------------------------ */
+/* @import url("common.css"); */
+/* 0 ============================================================= */
+html {
+	/* scroll-behavior: smooth; */
+}
+body {}
+
+.wrapper {
+	min-height: 100%;
+	overflow: clip;
+	display: flex;
+	flex-direction: column;
+}
+.wrapper > main {
+	flex-grow: 1;
+}
+/* .wrapper *::selection {
+	color: #1a1a1a;
+	background-color: rgba(0, 178, 6, 0.5);
+}
+.wrapper *:focus-visible {
+	outline: 2px solid #2c2c2c;
+	outline-offset: 2px;
+} */
+
+[class*="__container"] {
+	max-width: 1350px;
+	padding-inline: 15px;
+	margin-inline: auto;
+}
+/* divider ======================================================= */
+
+
+/* ---------------------------- HEADER --------------------------- */
+
+/* divider ======================================================= */
+
+
+/* ----------------------------- Page ---------------------------- */
+
+/* divider ======================================================= */
+
+
+/* ---------------------------- Footer --------------------------- */
+
+
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: -1px !important;
+  border: 0 !important;
+  padding: 0 !important;
+  white-space: nowrap !important;
+  clip-path: inset(100%) !important;
+  clip: rect(0 0 0 0) !important;
+  overflow: hidden !important;
+}

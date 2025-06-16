@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="favicon.svg" type="image/svg">
+	<title>Lesson 18</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<main class="page">
+			<div class="page__container">
+				<article class="article">
+					<div class="article__hero hero-article">
+						<div class="hero-article__wrap-image">
+							<img src="#" class="hero-article__image" alt="Image">
+						</div>
+						<div class="hero-article__content">
+							<div class="hero-article__top">
+								<ul class="hero-article__meta meta-article">
+									<!-- icon :before the li -->
+									<li class="meta-article__item">Food</li>
+									<li class="meta-article__item">By Admin</li>
+									<li class="meta-article__item">65 Comments</li>
+								</ul>
+								<h1 class="hero-article__title title title--size-xl">Maecenas tempor urna sed quam mollis, a placerat dui fringill Suspendisse.</h1>
+							</div>
+							<!-- separator for hero-article__bottom (border-bottom) -->
+							<div class="hero-article__bottom">
+								<div class="hero-article__author author-article">
+									<div class="author-article__wrap-image">
+										<img src="#" class="author-article__image" alt="Image">
+									</div>
+									<header class="author-article__info">
+										<span class="author-article__name">Cameron Williamson</span>
+										<div class="author-article__row">
+											<!-- dot for > * except the last one -->
+											<time datetime="2021-04-04" class="author-article__date">4 April, 2021</time>
+											<span class="author-article__read-time">6 min read</span>
+										</div>
+									</header>
+								</div>
+								<ul class="hero-article__socials socials-article">
+									<li class="socials-article__item">
+										<a href="#" target="_blank" rel="noopener noreferrer" aria-label="Share this post on Facebook" title="Share this post on Facebook" class="socials-article__link">
+											<svg xmlns="http://www.w3.org/2000/svg" width="18" height="19" fill="none" viewBox="0 0 18 19" aria-hidden="true" focusable="false">
+												<path fill="#4D4D4D" d="M11.998 3.489h1.643V.627A21.22 21.22 0 0 0 11.247.5c-2.37 0-3.992 1.49-3.992 4.23v2.52H4.64v3.2h2.615v8.05h3.205v-8.05h2.509l.398-3.2H10.46V5.047c.001-.924.25-1.557 1.539-1.557Z" />
+											</svg>
+										</a>
+									</li>
+									<li class="socials-article__item">
+										<a href="#" target="_blank" rel="noopener noreferrer" aria-label="Share this post on Twitter" title="Share this post on Twitter" class="socials-article__link">
+											<svg xmlns="http://www.w3.org/2000/svg" width="18" height="19" fill="none" viewBox="0 0 18 19" aria-hidden="true" focusable="false">
+												<path fill="#4D4D4D" d="M18 3.919a7.694 7.694 0 0 1-2.126.583 3.67 3.67 0 0 0 1.623-2.04c-.713.425-1.5.726-2.34.893a3.689 3.689 0 0 0-6.383 2.523c0 .293.025.574.085.842a10.445 10.445 0 0 1-7.606-3.86 3.715 3.715 0 0 0-.505 1.866c0 1.277.658 2.41 1.64 3.066A3.644 3.644 0 0 1 .72 7.338v.04a3.707 3.707 0 0 0 2.957 3.626 3.68 3.68 0 0 1-.968.122c-.236 0-.475-.014-.699-.063a3.725 3.725 0 0 0 3.449 2.57 7.415 7.415 0 0 1-4.576 1.574c-.302 0-.593-.013-.883-.05a10.389 10.389 0 0 0 5.661 1.655c6.79 0 10.503-5.625 10.503-10.5 0-.163-.006-.32-.014-.477A7.362 7.362 0 0 0 18 3.919Z" />
+											</svg>
+										</a>
+									</li>
+									<li class="socials-article__item">
+										<a href="#" target="_blank" rel="noopener noreferrer" aria-label="Save this post to Pinterest" title="Save this post to Pinterest" class="socials-article__link">
+											<svg xmlns="http://www.w3.org/2000/svg" width="18" height="19" fill="none" viewBox="0 0 18 19" aria-hidden="true" focusable="false">
+												<path fill="#4D4D4D" d="M9.245.5C4.31.5 1.688 3.661 1.688 7.109c0 1.598.893 3.592 2.323 4.224.217.098.335.056.384-.145.042-.153.23-.89.321-1.238a.318.318 0 0 0-.076-.312c-.475-.55-.852-1.55-.852-2.488 0-2.404 1.912-4.739 5.164-4.739 2.813 0 4.78 1.828 4.78 4.441 0 2.953-1.562 4.996-3.593 4.996-1.124 0-1.96-.882-1.695-1.973.32-1.3.95-2.697.95-3.634 0-.84-.476-1.536-1.445-1.536-1.145 0-2.073 1.133-2.073 2.654 0 .967.342 1.62.342 1.62l-1.342 5.426c-.355 1.445.049 3.786.083 3.988.022.111.147.146.216.055.112-.146 1.48-2.098 1.863-3.51l.713-2.598c.377.68 1.464 1.251 2.623 1.251 3.447 0 5.938-3.03 5.938-6.79C16.3 3.197 13.215.5 9.245.5Z" />
+											</svg>
+										</a>
+									</li>
+									<li class="socials-article__item">
+										<a href="#" target="_blank" rel="noopener noreferrer" aria-label="Visit our Instagram profile" title="Visit our Instagram profile" class="socials-article__link">
+											<svg xmlns="http://www.w3.org/2000/svg" width="18" height="19" fill="none" viewBox="0 0 18 19" aria-hidden="true" focusable="false">
+												<path fill="#4D4D4D" d="M17.982 5.792c-.042-.956-.197-1.614-.418-2.184a4.393 4.393 0 0 0-1.041-1.596A4.43 4.43 0 0 0 14.93.975c-.573-.222-1.227-.377-2.184-.419C11.784.511 11.477.5 9.034.5s-2.75.01-3.71.053C4.368.595 3.71.75 3.14.97a4.392 4.392 0 0 0-1.596 1.041c-.458.45-.813.995-1.038 1.593C.285 4.178.13 4.832.088 5.788.042 6.752.03 7.058.03 9.502s.011 2.75.053 3.71c.042.956.197 1.613.419 2.183a4.439 4.439 0 0 0 1.04 1.596c.45.458.996.813 1.593 1.038.574.221 1.228.376 2.184.418.96.043 1.266.053 3.71.053s2.75-.01 3.71-.053c.956-.042 1.613-.197 2.183-.418a4.604 4.604 0 0 0 2.634-2.634c.221-.573.376-1.227.418-2.184.042-.96.053-1.265.053-3.71 0-2.443-.004-2.749-.046-3.709Zm-1.62 7.35c-.04.878-.187 1.353-.31 1.67a2.986 2.986 0 0 1-1.71 1.708c-.316.123-.794.271-1.67.31-.949.042-1.234.052-3.635.052-2.402 0-2.69-.01-3.636-.052-.88-.039-1.354-.187-1.67-.31a2.77 2.77 0 0 1-1.034-.671 2.799 2.799 0 0 1-.672-1.034c-.123-.316-.27-.795-.31-1.67-.041-.95-.052-1.235-.052-3.636 0-2.402.01-2.69.053-3.636.038-.88.186-1.354.31-1.67.143-.39.372-.746.674-1.034a2.794 2.794 0 0 1 1.034-.672c.317-.123.795-.27 1.67-.31.95-.041 1.235-.052 3.636-.052 2.405 0 2.69.01 3.636.053.88.039 1.354.186 1.67.31.39.143.746.372 1.034.67.3.293.528.644.672 1.035.123.316.27.794.31 1.67.042.95.052 1.234.052 3.636 0 2.401-.01 2.683-.053 3.632Z" />
+												<path fill="#4D4D4D" d="M9.033 4.878a4.625 4.625 0 0 0 0 9.248 4.625 4.625 0 0 0 0-9.248Zm0 7.623a3 3 0 1 1 .001-6 3 3 0 0 1 0 6ZM14.92 4.695a1.08 1.08 0 1 1-2.16 0 1.08 1.08 0 0 1 2.16 0Z" />
+											</svg>
+										</a>
+									</li>
+									<li class="socials-article__item">
+										<button type="button" aria-label="Copy the link to the article" title="Copy the link to the article" class="socials-article__copy-link-btn">
+											<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20" aria-hidden="true" focusable="false">
+												<path fill="#4D4D4D" d="M5.833 6.667a3.333 3.333 0 0 0 0 6.666H7.5A.833.833 0 1 1 7.5 15H5.833a5 5 0 0 1 0-10H7.5a.833.833 0 0 1 0 1.667H5.833Zm5.834-.834A.833.833 0 0 1 12.5 5h1.667a5 5 0 1 1 0 10H12.5a.833.833 0 1 1 0-1.667h1.667a3.333 3.333 0 0 0 0-6.666H12.5a.833.833 0 0 1-.833-.834ZM5.833 10a.833.833 0 0 1 .834-.833h6.666a.833.833 0 0 1 0 1.666H6.667A.834.834 0 0 1 5.833 10Z" />
+											</svg>
+										</button>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="article__content">
+						<p class="article__lead">
+							Maecenas lacinia felis nec placerat sollicitudin. Quisque placerat dolor at scelerisque imperdiet. Phasellus tristique felis dolor.
+						</p>
+						<p>
+							Maecenas elementum in risus sed condimentum. Duis convallis ante ac tempus maximus. Fusce malesuada sed velit ut dictum. Morbi faucibus vitae orci at euismod. Integer auctor augue in erat vehicula, quis fermentum ex finibus.
+						</p>
+						<p>
+							Mauris pretium elit a dui pulvinar, in ornare sapien euismod. Nullam interdum nisl ante, id feugiat quam euismod commodo. Sed ultrices lectus ut iaculis rhoncus. Aenean non dignissim justo, at fermentum turpis. Sed molestie, ligula ut molestie ultrices, tellus ligula viverra neque, malesuada consectetur diam sapien volutpat risus.
+							Quisque eget tortor lobortis, facilisis metus eu, elementum est. Nunc sit amet erat quis ex convallis suscipit. ur ridiculus mus.
+						</p>
+						<div class="article__images-row">
+							<img src="#" alt="Image">
+							<img src="#" alt="Image">
+						</div>
+						<p>
+							Sed dictum non nulla eu imperdiet. Duis elit libero, vulputate quis vehicula ut, vestibulum ut mauris. Nullam non felis varius dui rutrum rutrum in a nisi. Suspendisse elementum rutrum lorem sed luctus. Proin iaculis euismod metus non sollicitudin. Duis vel luctus lacus. Nullam faucibus iaculis convallis. In ullamcorper nibh ipsum, eget lacinia eros pulvinar a. Integer accumsan arcu nec faucibus ultricies.
+						</p>
+						<section class="article__promo-banner promo-banner">
+							<!-- position absolute image -->
+							<img src="#" class="promo-banner__image" alt="Image">
+							<div class="promo-banner__content">
+								<div class="promo-banner__label">Summer Sales</div>
+								<h2 class="promo-banner__title">Fresh Fruit</h2>
+								<a href="#" aria-label="Shop now for fresh fruit" class="promo-banner__button">Shop Now</a>
+							</div>
+							<div class="promo-banner__discount">up to <strong>56%</strong> Off</div>
+						</section>
+					</div>
+					<section class="article__comment-form comment-form">
+						<h3 id="comment-form" class="comment-form__title title title--size-l">Leave a Comment</h3>
+						<form action="#" aria-labelledby="comment-form" class="comment-form__form">
+							<div class="comment-form__row">
+								<div class="comment-form__input-group">
+									<label for="full-name" class="comment-form__label">Full Name</label>
+									<input type="text" name="form[]" id="full-name" placeholder="Zakir Hossen" required class="comment-form__input">
+								</div>
+								<div class="comment-form__input-group">
+									<label for="email" class="comment-form__label">Email</label>
+									<input type="email" name="form[]" id="email" placeholder="zakirsoft.20@g|" required class="comment-form__input">
+								</div>
+							</div>
+							<div class="comment-form__textarea-group">
+								<label for="textarea" class="comment-form__label">Message</label>
+								<textarea name="form[]" id="textarea" placeholder="Write your comment here…" required class="comment-form__textarea"></textarea>
+							</div>
+							<label for="checkbox" class="comment-form__checkbox">
+								Save my name and email in this browser for the next time I comment.
+								<input type="checkbox" name="form[]" id="checkbox" class="comment-form__input-checkbox">
+							</label>
+							<button type="submit" class="comment-form__button">Post Comments</button>
+						</form>
+					</section>
+					<section class="article__comments comments-article">
+						<h3 class="comments-article__title title title--size-l">Comments</h3>
+						<ul class="comments-article__list">
+							<!-- separator for all li (border-bottom) except the last one -->
+							<li class="comments-article__item">
+								<article class="comments-article__comment comment">
+									<div class="comment__wrap-image">
+										<img src="#" class="comment__image" alt="Image">
+									</div>
+									<div class="comment__content">
+										<header class="comment__header">
+											<span class="comment__author-name">Annette Black</span>
+											<!-- dot :after the title -->
+											<time datetime="2021-04-24" class="comment__date">24 Apr, 2021</time>
+										</header>
+										<div class="comment__text">
+											<blockquote>
+												In a nisi commodo, porttitor ligula consequat, tincidunt dui. Nulla volutpat, metus eu aliquam malesuada, elit libero venenatis urna, consequat maximus arcu diam non diam.
+											</blockquote>
+										</div>
+									</div>
+								</article>
+							</li>
+							<!-- Other comments -->
+						</ul>
+						<button type="button" aria-label="Load more comments" class="comments-article__button-more">Load More</button>
+					</section>
+				</article>
+				<aside class="sidebar">
+					<!-- separator for > * (border-bottom) except the last one -->
+					<form action="#" aria-label="Search on the site" class="sidebar__form-search form-search">
+						<input type="search" name="form[]" placeholder="Search..." class="form-search__input">
+						<!-- icon :before for the button -->
+						<button type="submit" class="form-search__button" aria-label="Search"></button>
+					</form>
+					<section class="sidebar__categories categories-sidebar">
+						<h3 id="categories-title" class="categories-sidebar__title title title--size-m">Top Categories</h3>
+						<nav aria-labelledby="categories-title" class="categories-sidebar__menu">
+							<ul class="categories-sidebar__list">
+								<li class="categories-sidebar__item">
+									<a href="#" class="categories-sidebar__link">
+										Fresh Fruit
+										<span class="categories-sidebar__count">(134)</span>
+									</a>
+								</li>
+								<!-- Other categories -->
+							</ul>
+						</nav>
+					</section>
+					<section class="sidebar__tags tags-sidebar">
+						<h3 class="tags-sidebar__title title title--size-m">Popular Tag</h3>
+						<ul class="tags-sidebar__list">
+							<li class="tags-sidebar__item">
+								<a href="#" class="tags-sidebar__link">Healthy</a>
+							</li>
+							<!-- Other tags -->
+						</ul>
+					</section>
+					<section class="sidebar__gallery gallery-sidebar">
+						<h3 id="gallery" class="gallery-sidebar__title title title--size-m">Our Gallery</h3>
+						<ul class="gallery-sidebar__list" aria-labelledby="gallery">
+							<li class="gallery-sidebar__item">
+								<a href="#" class="gallery-sidebar__link">
+									<img src="#" alt="Image" class="gallery-sidebar__image">
+								</a>
+							</li>
+							<!-- Other images -->
+						</ul>
+					</section>
+					<section class="sidebar__recently recent-sidebar">
+						<h3 class="recent-sidebar__title title title--size-m">Recently Added</h3>
+						<ul class="recent-sidebar__list">
+							<li class="recent-sidebar__item">
+								<article class="recent-sidebar__card card-recent">
+									<a href="#" class="card-recent__link">
+										<div class="card-recent__wrap-image">
+											<img src="#" class="card-recent__image" alt="Image">
+										</div>
+										<header class="card-recent__content">
+											<h4 class="card-recent__title">
+												Curabitur porttitor orci eget nequ accumsan.
+											</h4>
+											<!-- icon :before for time -->
+											<time datetime="2021-04-25" class="card-recent__date">Apr 25, 2021</time>
+										</header>
+									</a>
+								</article>
+							</li>
+							<!-- Other cards -->
+						</ul>
+					</section>
+				</aside>
+			</div>
+		</main>
+	</div>
+	<!-- <script src="js/script.js"></script>
+	<script src="js/dynamic_adapt.js"></script> -->
+</body>
+
+</html>
